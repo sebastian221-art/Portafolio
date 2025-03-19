@@ -176,8 +176,20 @@ h2 {
     font-size: 1.2em;
     color: #0066cc;
     text-decoration: none;
+    background-color: #321355;
+    font-size: 22px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    outline: 2px outset rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    height: fit-content;
+    background-color: #453270;
 }
 
 .English a:hover {
-    text-decoration: underline;
+    color: #321355;
+    background-color: #444;
+    outline: 2px outset beige;
 }
