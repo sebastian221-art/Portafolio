@@ -39,7 +39,7 @@ body {
     border: 4px solid #453270;
 }
 
-.personal_info h1, .social_media h1, .personal_presentation h1, .studies h1, .social_media h1 {
+.personal_info h1, .social_media h1, .personal_presentation h1, .studies h1, .social_media h1 , .tech_stacks h1{
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #333;
