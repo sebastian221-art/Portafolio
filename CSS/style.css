@@ -1,0 +1,183 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #09091f;
+    color: #333;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del encabezado y la foto */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile_pictures img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #453270;
+}
+
+.personal_info h1, .social_media h1, .personal_presentation h1, .studies h1, .social_media h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #f1d8a2;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Sección de información personal */
+.personal_info {
+    margin-bottom: 30px;
+}
+
+.personal_info p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Sección de redes sociales */
+.social_media {
+    margin-bottom: 30px;
+}
+
+.social_media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.social_media img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Sección de presentación personal */
+.personal_presentation {
+    margin-bottom: 30px;
+}
+
+.personal_presentation p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Sección de estudios */
+.studies {
+    margin-bottom: 30px;
+}
+
+.studies p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Sección de habilidades tecnológicas */
+.social_media img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Enlace a la versión en inglés */
+.English {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.English a {
+    font-size: 1.2rem;
+    color: #4c93af;
+    text-decoration: none;
+}
+
+.English a:hover {
+    text-decoration: underline;
+}
+
+
+
+.tech_stacks img{
+    width: 25px;
+
+}
+ /* Contenedor principal para las dos columnas */
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo para cada columna */
+.column {
+    flex: 1 1 45%; /* Cada columna ocupa el 45% del ancho del contenedor */
+    box-sizing: border-box;
+}
+
+/* Estilo para la imagen circular */
+.profile_picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #000; /* Borde de la imagen */
+    margin-bottom: 20px; /* Margen debajo de la imagen */
+}
+
+/* Alineación de la imagen y el texto */
+.personal_info_container {
+    display: flex;
+    flex-direction: column; /* Alinea imagen y texto verticalmente */
+}
+
+/* Estilo para las secciones */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para los títulos */
+h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #444;
+}
+
+/* Estilo para el enlace de la versión en inglés */
+.English a {
+    font-size: 1.2em;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.English a:hover {
+    text-decoration: underline;
+}
