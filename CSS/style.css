@@ -157,6 +157,7 @@ hr {
 
 /* Estilo para las secciones */
 section {
+    background-color:beige;
     margin-bottom: 20px;
 }
 
